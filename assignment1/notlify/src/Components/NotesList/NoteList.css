@@ -1,0 +1,19 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: auto;
+}
+
+.card {
+  display: grid;
+  background-color: #fa5400;
+  grid-auto-rows: max-content;
+  grid-auto-columns: 10%;
+  margin: 0.5%;
+  padding: 0.5%;
+
+  text-align: center;
+  overflow: hidden;
+  font-size: 10px;
+  cursor: pointer;
+}
